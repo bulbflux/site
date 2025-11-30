@@ -1,0 +1,137 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Serviços",
+    "process": "Processo",
+    "results": "Resultados",
+    "contact": "Contacto",
+    "call": "Book a Call"
+  },
+
+  "hero": {
+    "badge": "BulbFlux • Digital Marketing Consulting",
+    "title1": "Digital Marketing Consulting for",
+    "title2": "Predictable Revenue Growth",
+    "subtitle1": "Desenvolvo estratégias digitais e funnels de alta performance que transformam traffic em resultados consistentes — todos os meses — para negócios online e locais.",
+    "subtitle2": "Ideal para empresas que já faturam 5.000–10.000€+/mês e procuram escalar com uma estratégia clara, estruturada e orientada à performance.",
+    "ctaPrimary": "Book Strategy Call",
+    "ctaSecondary": "Ver Serviços"
+  },
+
+  "process": {
+    "title": "Os Pilares de Crescimento",
+    "highlight": "BulbFlux",
+
+    "step1": "Pilar 1",
+    "title1": "Estratégia",
+    "desc1": "Definimos uma direção clara, estruturada e suportada por dados — focada em performance, market fit e crescimento previsível. Zero adivinhações.",
+    "time1": "Fundação",
+
+    "step2": "Pilar 2",
+    "title2": "Execução",
+    "desc2": "Construo e otimizo o seu sistema com high-intent targeting, smart segmentation e uma campaign architecture limpa — projetada para CPL previsível.",
+    "time2": "Implementação",
+
+    "step3": "Pilar 3",
+    "title3": "Previsibilidade",
+    "desc3": "Otimização semanal, escala controlada e reporting claro — garantindo CPL baixo, qualidade de leads elevada e crescimento consistente e repetível.",
+    "time3": "Consistência"
+  },
+
+  "results": {
+    "title": "O que a",
+    "highlight": "BulbFlux Entrega",
+
+    "r1": "CPC mais baixo e tráfego de maior qualidade através de targeting preciso",
+    "r2": "CPL previsível e CPA controlado com funnels e campaigns bem estruturadas",
+    "r3": "ROAS e ROI mais elevados através de otimizações contínuas e landing pages eficientes",
+    "r4": "Lead quality consistente com smart bidding e negative keywords bem definidas",
+    "r5": "Reporting claro: CPC, CTR, CPL, CPA, ROAS, taxas de conversão e tendências",
+    "r6": "Escala segura, sustentada por dados e performance estável"
+  },
+
+  "services": {
+    "title": "Serviços Pensados para",
+    "highlight": "Escalar o Seu Negócio",
+
+    "s1_title": "Conversion Funnels",
+    "s1_desc": "Criação de funnels completos que transformam cliques em clientes.",
+    "s1_b1": "Landing pages",
+    "s1_b2": "Estrutura da oferta",
+    "s1_b3": "Funnel strategy",
+
+    "s2_title": "Digital Strategy",
+    "s2_desc": "Planos claros e acionáveis para otimizar performance e escalar resultados.",
+    "s2_b1": "Positioning",
+    "s2_b2": "Seleção de canais",
+    "s2_b3": "Growth prioritization",
+
+    "s3_title": "Lead Generation Systems",
+    "s3_desc": "Geração de leads através de estratégias escaláveis e automatizadas.",
+    "s3_b1": "Automation",
+    "s3_b2": "Lead magnets",
+    "s3_b3": "High-intent capture",
+
+    "s4_title": "Marketing Optimization",
+    "s4_desc": "Otimização contínua de campanhas para aumentar conversões.",
+    "s4_b1": "A/B testing",
+    "s4_b2": "CRO",
+    "s4_b3": "Auditorias de performance",
+
+    "s5_title": "Consulting & Implementation",
+    "s5_desc": "Acompanhamento estratégico ou execução completa em vários canais.",
+    "s5_b1": "Hands-on support",
+    "s5_b2": "Implementação",
+    "s5_b3": "Strategic advisory",
+
+    "s6_title": "Growth Tracking & Analytics",
+    "s6_desc": "Monitorização e otimização suportada por métricas claras.",
+    "s6_b1": "Dashboards",
+    "s6_b2": "KPIs",
+    "s6_b3": "Revenue tracking"
+  },
+
+  "value": {
+    "v1_title": "Identificar Oportunidades e Bloqueios",
+    "v1_desc": "Descubra exatamente onde o seu funnel está a perder performance — desde targeting a landing page behavior — e o que precisa de ser corrigido para gerar resultados consistentes.",
+
+    "v2_title": "Funnels de Alta Conversão",
+    "v2_desc": "Estruturo customer journeys otimizados que transformam cold traffic em leads qualificadas e strategy calls, com foco em previsibilidade de CPL e escala segura.",
+
+    "v3_title": "Gerar Leads de Forma Consistente",
+    "v3_desc": "Implemento estratégias escaláveis que atraem leads de alta qualidade todos os meses — com segmentação inteligente, negative keywords e otimização contínua.",
+
+    "v4_title": "Escalar com Segurança",
+    "v4_desc": "Escalo o que funciona — desde paid ads até estratégias locais — com métricas claras e tendências previsíveis para aumentar resultados sem inflacionar custos."
+  },
+
+  "cta": {
+    "title1": "Pronto para Escalar o Seu",
+    "highlight": "Negócio?",
+    "subtitle": "Descubra a estratégia exata que o seu negócio precisa para crescer com previsibilidade.",
+    "button": "Marcar Strategy Call",
+    "note": "Sem compromissos. Sem pressão. 100% estratégia."
+  },
+
+  "form": {
+    "name": "Nome",
+    "name_placeholder": "O seu nome completo",
+    "revenue": "Faturação Mensal",
+    "revenue_placeholder": "Selecione a sua faixa de faturação",
+    "challenge": "Principal Desafio",
+    "c_leads": "Gerar leads consistentes e de qualidade",
+    "c_conversion": "Melhorar taxas de conversão",
+    "c_scaling": "Escalar campanhas com segurança",
+    "c_strategy": "Falta de estratégia clara e estruturada",
+    "goal": "Objetivo principal para os próximos 3–6 meses",
+    "goal_placeholder": "Descreva o seu objetivo…",
+    "submit": "Enviar Formulário"
+  },
+
+  "footer": {
+    "subtitle": "Digital Marketing Consulting",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos e Condições",
+    "copyright": "© BulbFlux. Todos os direitos reservados."
+  }
+}

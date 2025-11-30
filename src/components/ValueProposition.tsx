@@ -1,40 +1,39 @@
 import { Search, Zap, Users, TrendingUp } from 'lucide-react';
 import FadeInWhenVisible from './FadeInWhenVisible';
-
-const values = [
-  {
-    icon: Search,
-    title: 'Identificar Problemas',
-    description:
-      'Perceba exatamente onde o seu funnel perde receita e que bloqueios impedem as conversões.',
-  },
-  {
-    icon: Zap,
-    title: 'Desenhar Funnels de Alta Conversão',
-    description:
-      'Criar percursos otimizados que transformam tráfego frio em compras e strategy calls.',
-  },
-  {
-    icon: Users,
-    title: 'Gerar Leads Consistentes',
-    description:
-      'Desenvolver sistemas escaláveis que atraem leads de alta qualidade todos os meses.',
-  },
-  {
-    icon: TrendingUp,
-    title: 'Escalar em Vários Canais',
-    description:
-      'Replicar o que funciona em paid ads, estratégias locais e plataformas digitais.',
-  },
-];
+import { useLanguage } from '../context/LanguageContext';
 
 export default function ValueProposition() {
+  const { t } = useLanguage();
+
+  const values = [
+    {
+      icon: Search,
+      title: t("value.v1_title"),
+      description: t("value.v1_desc"),
+    },
+    {
+      icon: Zap,
+      title: t("value.v2_title"),
+      description: t("value.v2_desc"),
+    },
+    {
+      icon: Users,
+      title: t("value.v3_title"),
+      description: t("value.v3_desc"),
+    },
+    {
+      icon: TrendingUp,
+      title: t("value.v4_title"),
+      description: t("value.v4_desc"),
+    },
+  ];
+
   return (
     <section className="py-16 sm:py-24 bg-white dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
         {/* GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 items-stretch">
           {values.map((value, index) => (
             <FadeInWhenVisible key={index} delay={index * 0.1}>
 
@@ -43,7 +42,7 @@ export default function ValueProposition() {
                 className="group p-6 sm:p-8 bg-gray-50 dark:bg-gray-900 
                            border border-gray-100 dark:border-gray-800 
                            rounded-2xl hover:shadow-xl hover:scale-105 
-                           transition-all duration-300"
+                           transition-all duration-300 h-full flex flex-col"
               >
                 {/* ICON */}
                 <div
@@ -61,11 +60,12 @@ export default function ValueProposition() {
                 </h3>
 
                 {/* DESCRIPTION */}
-                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed flex-grow">
                   {value.description}
                 </p>
 
               </div>
+
             </FadeInWhenVisible>
           ))}
         </div>

@@ -1,0 +1,137 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "process": "Process",
+    "results": "Results",
+    "contact": "Contact",
+    "call": "Book a Call"
+  },
+
+  "hero": {
+    "badge": "BulbFlux • Digital Marketing Consulting",
+    "title1": "Digital Marketing Consulting for",
+    "title2": "Predictable Revenue Growth",
+    "subtitle1": "I build high-performance digital strategies and funnels that turn traffic into consistent results — every month — for both online and local businesses.",
+    "subtitle2": "Ideal for companies already generating €5,000–10,000+/month and ready to scale with a clear, structured and performance-driven strategy.",
+    "ctaPrimary": "Book Strategy Call",
+    "ctaSecondary": "View Services"
+  },
+
+  "process": {
+    "title": "The BulbFlux Growth",
+    "highlight": "Pillars",
+
+    "step1": "Pillar 1",
+    "title1": "Strategy",
+    "desc1": "We define a clear, data-backed direction focused on performance, market fit, and predictable growth. No guesswork — just clarity and structure.",
+    "time1": "Foundation",
+
+    "step2": "Pillar 2",
+    "title2": "Execution",
+    "desc2": "We build and optimize your system with high-intent targeting, smart segmentation, and clean campaign architecture designed for predictable CPL.",
+    "time2": "Implementation",
+
+    "step3": "Pillar 3",
+    "title3": "Predictability",
+    "desc3": "Weekly optimization, controlled scaling, and clear reporting that keeps CPL low, lead quality high, and growth consistent and repeatable.",
+    "time3": "Consistency"
+  },
+
+  "results": {
+    "title": "What",
+    "highlight": "BulbFlux Delivers",
+
+    "r1": "Lower CPC and higher-quality traffic through precise targeting and segmentation",
+    "r2": "Predictable CPL and controlled CPA with clean funnel architecture",
+    "r3": "Improved ROAS through optimized campaigns, landing pages, and keyword systems",
+    "r4": "Consistent lead quality powered by smart bidding and negative keyword structure",
+    "r5": "Clear reporting: CPC, CTR, CPL, CPA, ROAS, conversion rate, and trend insights",
+    "r6": "Safe, data-backed scaling with stable performance and repeatable results"
+  },
+
+  "services": {
+    "title": "Services Designed to",
+    "highlight": "Increase Your Revenue",
+
+    "s1_title": "Conversion Funnels",
+    "s1_desc": "Creation of complete funnels that turn clicks into customers.",
+    "s1_b1": "Landing pages",
+    "s1_b2": "Offer structure",
+    "s1_b3": "Funnel strategy",
+
+    "s2_title": "Digital Strategy",
+    "s2_desc": "Clear and actionable plans to optimize performance and scale results.",
+    "s2_b1": "Positioning",
+    "s2_b2": "Channel selection",
+    "s2_b3": "Growth prioritization",
+
+    "s3_title": "Lead Generation Systems",
+    "s3_desc": "Lead generation through scalable and automated strategies.",
+    "s3_b1": "Automation",
+    "s3_b2": "Lead magnets",
+    "s3_b3": "High-intent capture",
+
+    "s4_title": "Marketing Optimization",
+    "s4_desc": "Continuous optimization to increase conversions and eliminate bottlenecks.",
+    "s4_b1": "A/B testing",
+    "s4_b2": "CRO",
+    "s4_b3": "Performance audits",
+
+    "s5_title": "Consulting & Implementation",
+    "s5_desc": "Strategic guidance or complete execution across multiple channels.",
+    "s5_b1": "Hands-on support",
+    "s5_b2": "Implementation",
+    "s5_b3": "Strategic advisory",
+
+    "s6_title": "Growth Tracking & Analytics",
+    "s6_desc": "Monitoring and optimization supported by clear, data-driven insights.",
+    "s6_b1": "Dashboards",
+    "s6_b2": "KPIs",
+    "s6_b3": "Revenue tracking"
+  },
+
+  "value": {
+    "v1_title": "Identify Opportunities and Bottlenecks",
+    "v1_desc": "See exactly where your funnel is losing performance — from targeting to landing page behavior — and what needs to be fixed to generate consistent results.",
+
+    "v2_title": "High-Converting Funnels",
+    "v2_desc": "I structure optimized customer journeys that turn cold traffic into qualified leads and strategy calls, with predictable CPL and safe scaling.",
+
+    "v3_title": "Generate Consistent, High-Quality Leads",
+    "v3_desc": "I implement scalable strategies that attract high-quality leads every month — powered by smart segmentation, negative keywords and ongoing optimization.",
+
+    "v4_title": "Scale Safely and Predictably",
+    "v4_desc": "I scale what works — from paid ads to local strategies — backed by clear metrics, predictable trends, and controlled budget expansion."
+  },
+
+  "cta": {
+    "title1": "Ready to Scale Your",
+    "highlight": "Revenue?",
+    "subtitle": "Book a free consultation and discover the exact strategy your business needs.",
+    "button": "Book Strategy Call",
+    "note": "No commitments. No pressure. 100% strategy."
+  },
+
+  "form": {
+    "name": "Name",
+    "name_placeholder": "Your full name",
+    "revenue": "Monthly Revenue",
+    "revenue_placeholder": "Select your revenue range",
+    "challenge": "Main Challenge",
+    "c_leads": "Getting consistent, high-quality leads",
+    "c_conversion": "Improving conversion rates",
+    "c_scaling": "Scaling campaigns safely",
+    "c_strategy": "Lack of clarity and structured strategy",
+    "goal": "Main goal for the next 3–6 months",
+    "goal_placeholder": "Describe your goal…",
+    "submit": "Submit Application"
+  },
+
+  "footer": {
+    "subtitle": "Digital Marketing Consulting",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "copyright": "© BulbFlux. All rights reserved."
+  }
+}

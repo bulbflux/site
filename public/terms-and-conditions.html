@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Terms &amp; Conditions • BulbFlux</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --bg-alt: #f7f7f9;
+      --text: #111827;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #020617;
+        --bg-alt: #020617;
+        --text: #f9fafb;
+        --muted: #9ca3af;
+        --border: #1f2937;
+        --accent: #60a5fa;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #0b1120 0, var(--bg) 55%);
+      color: var(--text);
+      padding: 0 1rem 4rem;
+    }
+    .shell {
+      max-width: 900px;
+      margin: 0 auto;
+      padding-top: 2.5rem;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .brand-logo {
+      width: 32px;
+      height: 32px;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+    .brand-name {
+      font-weight: 800;
+      font-size: 1.4rem;
+      background-image: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .badge {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .lang-toggle {
+      display: inline-flex;
+      background: rgba(15, 23, 42, 0.04);
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .lang-toggle button {
+      border: none;
+      background: transparent;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: var(--muted);
+    }
+    .lang-toggle button.active {
+      background: rgba(37, 99, 235, 0.12);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.02);
+      backdrop-filter: blur(16px);
+      border-radius: 1.5rem;
+      border: 1px solid var(--border);
+      padding: 2rem 1.5rem;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.15);
+    }
+    h1 {
+      font-size: 1.9rem;
+      margin: 0 0 0.75rem;
+      letter-spacing: -0.03em;
+    }
+    .subtitle {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    h2 {
+      margin-top: 2rem;
+      margin-bottom: 0.4rem;
+      font-size: 1.1rem;
+    }
+    p, li {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    ul {
+      padding-left: 1.1rem;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .meta {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.75rem;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.04);
+      border: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 1rem;
+    }
+    .pill-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background-image: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+    }
+    @media (max-width: 640px) {
+      .card {
+        padding: 1.5rem 1.1rem;
+        border-radius: 1.25rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <div class="brand">
+          <img src="/bulbflux_google_no_bg.png" alt="BulbFlux" class="brand-logo" />
+          <span class="brand-name">BulbFlux</span>
+        </div>
+        <p class="badge">Digital Marketing Consulting • Terms &amp; Conditions</p>
+      </div>
+
+      <div class="lang-toggle" id="langToggle">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="pt">PT</button>
+      </div>
+    </header>
+
+    <main class="card">
+      <!-- ENGLISH VERSION -->
+      <section id="content-en">
+        <h1>Terms &amp; Conditions</h1>
+        <p class="subtitle">
+          These Terms &amp; Conditions govern your use of the BulbFlux website and any strategy calls, consulting or related services offered by BulbFlux (“we”, “us”, “our”).
+        </p>
+        <p class="meta">
+          Last updated: 30 November 2025 • Governing law: Portugal (EU)
+        </p>
+
+        <div class="pill">
+          <span class="pill-dot"></span>
+          <span>BulbFlux provides strategic digital marketing consulting, not legal, tax or financial advice.</span>
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+          By accessing this website, submitting a form, booking a strategy call or engaging BulbFlux for consulting services, you agree to these Terms &amp; Conditions.
+          If you do not agree, you should not use the website or our services.
+        </p>
+
+        <h2>2. Who We Are</h2>
+        <p>
+          BulbFlux is a digital marketing consulting brand focused on strategy, execution and predictable growth for online and local businesses.
+          For any questions about these Terms, you can contact us at <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>.
+        </p>
+
+        <h2>3. Services</h2>
+        <p>
+          BulbFlux provides digital marketing consulting and related services, which may include (among others):
+        </p>
+        <ul>
+          <li>Analysis of your current marketing and growth strategy.</li>
+          <li>Design of funnels, campaign architecture and channel strategy.</li>
+          <li>Recommendations for Google Ads or other paid media platforms.</li>
+          <li>Support in the implementation and optimisation of campaigns.</li>
+        </ul>
+        <p>
+          The exact scope, deliverables and timelines will be defined individually, for example via e-mail, proposal or agreement.
+        </p>
+
+        <h2>4. No Guarantee of Specific Results</h2>
+        <p>
+          Digital marketing performance depends on multiple factors beyond our control (market conditions, competition, product, offers, pricing, sales process, website, budget, etc.).
+        </p>
+        <p>
+          While we work to improve metrics such as CPC, CPA, ROAS, CTR and conversion rates, BulbFlux does not guarantee any specific results,
+          revenue levels or return on investment. All performance examples are illustrative only.
+        </p>
+
+        <h2>5. Client Responsibilities</h2>
+        <p>To ensure an effective collaboration, you agree to:</p>
+        <ul>
+          <li>Provide accurate and up-to-date information about your business, offers and goals.</li>
+          <li>Grant the necessary access to platforms (e.g. Google Ads, Analytics, CRM, website) when relevant.</li>
+          <li>Review materials and provide feedback within reasonable timeframes.</li>
+          <li>Ensure that your products, services and advertising comply with applicable laws and platform policies.</li>
+        </ul>
+
+        <h2>6. Fees and Payment</h2>
+        <p>
+          Fees, payment terms and billing cycles will be agreed separately (for example via proposal or e-mail).
+          Unless otherwise stated, all amounts are exclusive of applicable taxes.
+        </p>
+        <p>
+          Invoices are typically payable within the timeframe stated on the invoice. Late payments may lead to suspension of work until payment is received.
+        </p>
+
+        <h2>7. Calls, Scheduling and Cancellations</h2>
+        <p>
+          Strategy calls are normally scheduled using online calendars or by e-mail. If you need to reschedule, please do so with reasonable notice.
+        </p>
+        <p>
+          Persistent no-shows or last-minute cancellations may lead to refusal of future bookings or require prepayment for future sessions.
+        </p>
+
+        <h2>8. Intellectual Property</h2>
+        <p>
+          Unless explicitly agreed otherwise in writing:
+        </p>
+        <ul>
+          <li>All methodologies, frameworks, templates, processes and documents created by BulbFlux remain our intellectual property.</li>
+          <li>You receive a non-exclusive licence to use the delivered materials internally in your business.</li>
+          <li>You may not resell, redistribute or publicly share our proprietary materials without written permission.</li>
+        </ul>
+
+        <h2>9. Confidentiality</h2>
+        <p>
+          Both parties agree to keep confidential any non-public information shared during the collaboration, including business data, strategies, financials and campaign performance.
+        </p>
+        <p>
+          We may use anonymised and aggregated data (e.g. “improved CPA by 30% in 90 days”) for marketing or case study purposes, without identifying you or your company by name unless you give explicit permission.
+        </p>
+
+        <h2>10. Limitation of Liability</h2>
+        <p>
+          To the maximum extent permitted by law, BulbFlux will not be liable for any indirect, incidental, special or consequential damages,
+          including loss of revenue, profits, data or business opportunities arising from the use of our website or services.
+        </p>
+        <p>
+          Our total liability for any claim relating to our services will be limited to the amount you paid us for the specific service giving rise to the claim.
+        </p>
+
+        <h2>11. Third-Party Tools and Platforms</h2>
+        <p>
+          Our work may involve the use or recommendation of third-party tools and platforms (e.g. Google Ads, Google Analytics, Meta Ads, CRM systems, landing page builders).
+        </p>
+        <p>
+          We are not responsible for interruptions, errors, policy changes, platform bans or data loss caused by these third-party services. You are responsible for complying with their terms and policies.
+        </p>
+
+        <h2>12. Website Content</h2>
+        <p>
+          The content on this website is provided for general information and to present BulbFlux’s services. It does not constitute legal, tax or financial advice.
+        </p>
+
+        <h2>13. Governing Law and Jurisdiction</h2>
+        <p>
+          These Terms &amp; Conditions are governed by the laws of Portugal. Any disputes will be submitted to the competent courts of Portugal, without prejudice to any mandatory provisions that may grant you rights in your country of residence.
+        </p>
+
+        <h2>14. Changes to These Terms</h2>
+        <p>
+          We may update these Terms &amp; Conditions from time to time. The “Last updated” date at the top indicates the current version.
+          By continuing to use the website or our services after changes are published, you accept the updated Terms.
+        </p>
+
+        <h2>15. Contact</h2>
+        <p>
+          For questions about these Terms &amp; Conditions, you can contact us at
+          <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>.
+        </p>
+      </section>
+
+      <!-- PORTUGUESE VERSION -->
+      <section id="content-pt" style="display:none;">
+        <h1>Termos &amp; Condições</h1>
+        <p class="subtitle">
+          Estes Termos &amp; Condições regulam a utilização do website da BulbFlux e dos serviços de consulting, strategy calls e outros serviços relacionados prestados pela BulbFlux (“nós”).
+        </p>
+        <p class="meta">
+          Última atualização: 30 de novembro de 2025 • Lei aplicável: Portugal (UE)
+        </p>
+
+        <div class="pill">
+          <span class="pill-dot"></span>
+          <span>A BulbFlux presta serviços de consultoria em marketing digital, não constituindo aconselhamento jurídico, fiscal ou financeiro.</span>
+        </div>
+
+        <h2>1. Aceitação dos Termos</h2>
+        <p>
+          Ao aceder a este website, submeter um formulário, marcar uma strategy call ou contratar serviços da BulbFlux, está a aceitar estes Termos &amp; Condições.
+          Se não concordar, não deve usar o website nem os nossos serviços.
+        </p>
+
+        <h2>2. Quem Somos</h2>
+        <p>
+          A BulbFlux é uma marca de consultoria em marketing digital focada em estratégia, execução e crescimento previsível para negócios online e locais.
+          Para qualquer questão relativa a estes Termos, pode contactar-nos através do e-mail
+          <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>.
+        </p>
+
+        <h2>3. Serviços</h2>
+        <p>
+          A BulbFlux presta serviços de consultoria em marketing digital, que podem incluir (entre outros):
+        </p>
+        <ul>
+          <li>Análise da sua estratégia de marketing e crescimento.</li>
+          <li>Desenho de funnels, campaign architecture e estratégia de canais.</li>
+          <li>Recomendações para Google Ads ou outras plataformas de paid media.</li>
+          <li>Suporte na implementação e otimização de campanhas.</li>
+        </ul>
+        <p>
+          O âmbito exato, entregáveis e prazos serão definidos caso a caso, por exemplo através de proposta ou e-mail.
+        </p>
+
+        <h2>4. Ausência de Garantia de Resultados</h2>
+        <p>
+          A performance em marketing digital depende de múltiplos fatores que não controlamos (condições de mercado, concorrência, produto, ofertas, preços, processo comercial, website, budget, etc.).
+        </p>
+        <p>
+          Embora trabalhemos para melhorar métricas como CPC, CPA, ROAS, CTR e taxas de conversão, a BulbFlux não garante resultados específicos,
+          níveis de faturação ou retorno de investimento. Todos os exemplos apresentados têm caráter meramente ilustrativo.
+        </p>
+
+        <h2>5. Responsabilidades do Cliente</h2>
+        <p>Para garantir uma colaboração eficaz, o cliente compromete-se a:</p>
+        <ul>
+          <li>Fornecer informação correta e atualizada sobre o negócio, ofertas e objetivos.</li>
+          <li>Ceder os acessos necessários às plataformas relevantes (ex.: Google Ads, Analytics, CRM, website).</li>
+          <li>Rever materiais e fornecer feedback em prazos razoáveis.</li>
+          <li>Garantir que os seus produtos, serviços e publicidade cumprem a legislação aplicável e as políticas das plataformas.</li>
+        </ul>
+
+        <h2>6. Honorários e Pagamentos</h2>
+        <p>
+          Os valores, condições de pagamento e ciclos de faturação serão acordados separadamente (por exemplo, por proposta ou e-mail).
+          Salvo indicação em contrário, os valores não incluem impostos aplicáveis.
+        </p>
+        <p>
+          As faturas devem ser pagas dentro do prazo indicado. Atrasos de pagamento podem levar à suspensão do trabalho até regularização.
+        </p>
+
+        <h2>7. Chamadas, Agendamentos e Cancelamentos</h2>
+        <p>
+          As strategy calls são habitualmente agendadas através de calendário online ou por e-mail. Se precisar de remarcar, faça-o com antecedência razoável.
+        </p>
+        <p>
+          Faltas repetidas ou cancelamentos de última hora podem levar à recusa de novas marcações ou à exigência de pré-pagamento para sessões futuras.
+        </p>
+
+        <h2>8. Propriedade Intelectual</h2>
+        <p>
+          Salvo acordo escrito em contrário:
+        </p>
+        <ul>
+          <li>Todos os métodos, frameworks, templates, processos e documentos criados pela BulbFlux permanecem nossa propriedade intelectual.</li>
+          <li>O cliente recebe uma licença não exclusiva para utilizar os materiais entregues internamente no seu negócio.</li>
+          <li>Não é permitida a revenda, redistribuição ou partilha pública dos materiais sem autorização escrita.</li>
+        </ul>
+
+        <h2>9. Confidencialidade</h2>
+        <p>
+          Ambas as partes comprometem-se a manter confidencial toda a informação não pública partilhada durante a colaboração,
+          incluindo dados de negócio, estratégias, informação financeira e resultados de campanhas.
+        </p>
+        <p>
+          Podemos utilizar dados anonimizados e agregados (por exemplo, “redução de CPA em 30% em 90 dias”) para fins de marketing ou case studies,
+          sem identificar o cliente ou a empresa pelo nome, salvo consentimento explícito.
+        </p>
+
+        <h2>10. Limitação de Responsabilidade</h2>
+        <p>
+          Na máxima medida permitida por lei, a BulbFlux não será responsável por quaisquer danos indiretos, incidentais, especiais ou consequenciais,
+          incluindo perda de receita, lucros, dados ou oportunidades de negócio decorrentes da utilização do website ou dos serviços.
+        </p>
+        <p>
+          A responsabilidade total da BulbFlux por qualquer reclamação relacionada com os serviços fica limitada ao montante pago pelo cliente
+          relativamente a esse serviço específico.
+        </p>
+
+        <h2>11. Ferramentas e Plataformas de Terceiros</h2>
+        <p>
+          O nosso trabalho pode envolver a utilização ou recomendação de ferramentas e plataformas de terceiros (ex.: Google Ads, Google Analytics, Meta Ads, CRMs, construtores de landing pages).
+        </p>
+        <p>
+          Não nos responsabilizamos por interrupções, erros, alterações de políticas, suspensões de conta ou perda de dados causadas por estes serviços externos.
+          O cliente é responsável por cumprir os respetivos termos e políticas.
+        </p>
+
+        <h2>12. Conteúdos do Website</h2>
+        <p>
+          Os conteúdos deste website têm caráter informativo e destinam-se a apresentar os serviços da BulbFlux.
+          Não constituem aconselhamento jurídico, fiscal ou financeiro.
+        </p>
+
+        <h2>13. Lei Aplicável e Foro</h2>
+        <p>
+          Estes Termos &amp; Condições são regidos pela lei portuguesa. Qualquer litígio será submetido aos tribunais competentes de Portugal,
+          sem prejuízo de disposições imperativas que possam conferir outros direitos ao utilizador no seu país de residência.
+        </p>
+
+        <h2>14. Alterações a estes Termos</h2>
+        <p>
+          Podemos atualizar estes Termos &amp; Condições sempre que necessário. A data de “Última atualização” indica a versão em vigor.
+          Ao continuar a utilizar o website ou os serviços após a publicação de alterações, o utilizador aceita os Termos atualizados.
+        </p>
+
+        <h2>15. Contacto</h2>
+        <p>
+          Para quaisquer questões relacionadas com estes Termos &amp; Condições, contacte-nos através de
+          <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>.
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      const en = document.getElementById("content-en");
+      const pt = document.getElementById("content-pt");
+      const buttons = document.querySelectorAll("#langToggle button");
+
+      function setLang(lang) {
+        if (lang === "pt") {
+          en.style.display = "none";
+          pt.style.display = "block";
+        } else {
+          en.style.display = "block";
+          pt.style.display = "none";
+        }
+        buttons.forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.lang === lang);
+        });
+      }
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => setLang(btn.dataset.lang));
+      });
+
+      // Default: EN
+      setLang("en");
+    })();
+  </script>
+</body>
+</html>

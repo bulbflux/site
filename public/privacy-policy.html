@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Privacy Policy • BulbFlux</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --bg-alt: #f7f7f9;
+      --text: #111827;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #020617;
+        --bg-alt: #020617;
+        --text: #f9fafb;
+        --muted: #9ca3af;
+        --border: #1f2937;
+        --accent: #60a5fa;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #0b1120 0, var(--bg) 55%);
+      color: var(--text);
+      padding: 0 1rem 4rem;
+    }
+    .shell {
+      max-width: 900px;
+      margin: 0 auto;
+      padding-top: 2.5rem;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .brand-logo {
+      width: 32px;
+      height: 32px;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+    .brand-name {
+      font-weight: 800;
+      font-size: 1.4rem;
+      background-image: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .badge {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .lang-toggle {
+      display: inline-flex;
+      background: rgba(15, 23, 42, 0.04);
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .lang-toggle button {
+      border: none;
+      background: transparent;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: var(--muted);
+    }
+    .lang-toggle button.active {
+      background: rgba(37, 99, 235, 0.12);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.02);
+      backdrop-filter: blur(16px);
+      border-radius: 1.5rem;
+      border: 1px solid var(--border);
+      padding: 2rem 1.5rem;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.15);
+    }
+    h1 {
+      font-size: 1.9rem;
+      margin: 0 0 0.75rem;
+      letter-spacing: -0.03em;
+    }
+    .subtitle {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    h2 {
+      margin-top: 2rem;
+      margin-bottom: 0.4rem;
+      font-size: 1.1rem;
+    }
+    h3 {
+      margin-top: 1rem;
+      margin-bottom: 0.35rem;
+      font-size: 1rem;
+    }
+    p, li {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    ul {
+      padding-left: 1.1rem;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .meta {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.75rem;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.04);
+      border: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 1rem;
+    }
+    .pill-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background-image: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+    }
+    @media (max-width: 640px) {
+      .card {
+        padding: 1.5rem 1.1rem;
+        border-radius: 1.25rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <div class="brand">
+          <img src="/bulbflux_google_no_bg.png" alt="BulbFlux" class="brand-logo" />
+          <span class="brand-name">BulbFlux</span>
+        </div>
+        <p class="badge">Digital Marketing Consulting • Privacy Policy</p>
+      </div>
+
+      <div class="lang-toggle" id="langToggle">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="pt">PT</button>
+      </div>
+    </header>
+
+    <main class="card">
+      <!-- ENGLISH VERSION -->
+      <section id="content-en">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">
+          This Privacy Policy explains how BulbFlux (“we”, “us”, “our”) collects, uses and protects your personal data when you visit our website, book a strategy call, or work with us as a client.
+        </p>
+        <p class="meta">
+          Last updated: 30 November 2025 • Applicable law: GDPR (EU) & Portuguese law
+        </p>
+
+        <div class="pill">
+          <span class="pill-dot"></span>
+          <span>BulbFlux is a digital marketing consultancy operated from Portugal.</span>
+        </div>
+
+        <h2>1. Data Controller</h2>
+        <p>
+          The data controller for this website and the services offered through it is:
+        </p>
+        <p>
+          <strong>BulbFlux – Digital Marketing Consulting</strong><br />
+          E-mail: <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>
+        </p>
+
+        <h2>2. Data We Collect</h2>
+        <p>We only collect the data necessary to communicate with you and deliver our services. This may include:</p>
+        <ul>
+          <li><strong>Identification data:</strong> name and company name.</li>
+          <li><strong>Contact data:</strong> e-mail address and, if provided, phone number.</li>
+          <li><strong>Business information:</strong> monthly revenue range, main challenges, goals and other details you choose to share in forms or calls.</li>
+          <li><strong>Usage data:</strong> pages visited, time on page, clicks and interactions, collected through cookies or analytics tools.</li>
+          <li><strong>Technical data:</strong> IP address, browser type, device type and basic logs for security and performance.</li>
+        </ul>
+
+        <h2>3. How We Use Your Data</h2>
+        <p>We use your personal data for the following purposes:</p>
+        <ul>
+          <li>To answer your enquiries and schedule strategy calls.</li>
+          <li>To analyse your business and prepare tailored digital marketing strategies.</li>
+          <li>To send essential service-related communications (e.g. confirmations, follow-ups).</li>
+          <li>To improve our website, funnels and marketing performance.</li>
+          <li>To comply with legal obligations and respond to lawful requests from authorities.</li>
+        </ul>
+
+        <h2>4. Legal Basis (GDPR)</h2>
+        <p>Under the GDPR, we process your personal data based on one or more of the following legal bases:</p>
+        <ul>
+          <li><strong>Consent:</strong> when you voluntarily fill in a form, subscribe, or explicitly agree to receive communications.</li>
+          <li><strong>Contractual necessity:</strong> when processing is required to analyse your project, prepare a proposal or deliver services.</li>
+          <li><strong>Legitimate interest:</strong> for security, fraud prevention, service improvement and basic analytics.</li>
+          <li><strong>Legal obligation:</strong> when we must keep certain data for tax, accounting or regulatory purposes.</li>
+        </ul>
+
+        <h2>5. Cookies & Tracking</h2>
+        <p>
+          Our website may use cookies and similar technologies to ensure basic functionality and to better understand how visitors use the site.
+          Where required by law, we will ask for your consent before setting non-essential cookies.
+        </p>
+
+        <h2>6. Analytics & Advertising Tools</h2>
+        <p>
+          We may use analytics or advertising platforms (for example, Google Analytics or Google Ads) to measure performance and optimise campaigns.
+          These tools can collect aggregated data such as page views, conversions, device type and approximate location.
+        </p>
+        <p>
+          Any use of such tools will be configured in line with GDPR requirements, minimising personal data and, where necessary, asking for your consent.
+        </p>
+
+        <h2>7. Marketing Communications</h2>
+        <p>
+          If you give us permission, we may contact you with relevant content about digital marketing, strategy and growth — always with the option to unsubscribe.
+        </p>
+        <p>
+          You can withdraw your consent at any time by replying to our e-mails or contacting us at
+          <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>.
+        </p>
+
+        <h2>8. Data Retention</h2>
+        <p>
+          We keep your personal data only for as long as necessary for the purposes described in this Policy or as required by law.
+          In general:
+        </p>
+        <ul>
+          <li>Contact and lead data: up to 24 months after last interaction, unless you become a client or ask us to delete it earlier.</li>
+          <li>Client and contract data: retained for the duration of the relationship and for the period required by tax and accounting laws.</li>
+        </ul>
+
+        <h2>9. Data Sharing</h2>
+        <p>
+          We do not sell your personal data. We may share it only with:
+        </p>
+        <ul>
+          <li>Service providers who help us operate the business (e.g. hosting, e-mail, analytics) under data processing agreements.</li>
+          <li>Authorities or regulators, when legally required.</li>
+        </ul>
+
+        <h2>10. International Transfers</h2>
+        <p>
+          Some of our service providers may be located outside the European Economic Area.
+          In such cases, we will ensure that appropriate safeguards are in place (for example, Standard Contractual Clauses or equivalent measures).
+        </p>
+
+        <h2>11. Your Rights (GDPR)</h2>
+        <p>You have the following rights regarding your personal data:</p>
+        <ul>
+          <li>Right to access your personal data.</li>
+          <li>Right to rectify inaccurate or incomplete data.</li>
+          <li>Right to erasure (“right to be forgotten”), in certain circumstances.</li>
+          <li>Right to restrict processing, in certain circumstances.</li>
+          <li>Right to data portability, where applicable.</li>
+          <li>Right to object to processing based on legitimate interests or for direct marketing.</li>
+          <li>Right to withdraw consent at any time, when processing is based on consent.</li>
+        </ul>
+
+        <h2>12. How to Exercise Your Rights</h2>
+        <p>
+          To exercise any of your rights or ask a question about this Policy, contact us at:
+        </p>
+        <p>
+          <strong>E-mail:</strong> <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>
+        </p>
+        <p>
+          You also have the right to lodge a complaint with your local data protection authority, in particular the authority of your habitual residence, place of work or place of the alleged infringement.
+        </p>
+
+        <h2>13. Security</h2>
+        <p>
+          We take reasonable technical and organisational measures to protect your personal data against unauthorised access, alteration, disclosure or destruction.
+          However, no method of transmission or storage is 100% secure, and we cannot guarantee absolute security.
+        </p>
+
+        <h2>14. Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes in law, technology or our services.
+          The “Last updated” date at the top will always indicate the current version.
+        </p>
+
+        <h2>15. Contact</h2>
+        <p>
+          If you have any questions about this Privacy Policy or how we handle your data, please contact us at
+          <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>.
+        </p>
+      </section>
+
+      <!-- PORTUGUESE VERSION -->
+      <section id="content-pt" style="display:none;">
+        <h1>Política de Privacidade</h1>
+        <p class="subtitle">
+          Esta Política de Privacidade explica como a BulbFlux (“nós”) recolhe, utiliza e protege os seus dados pessoais quando visita o nosso website, marca uma strategy call ou trabalha connosco como cliente.
+        </p>
+        <p class="meta">
+          Última atualização: 30 de novembro de 2025 • Lei aplicável: RGPD (UE) e legislação portuguesa
+        </p>
+
+        <div class="pill">
+          <span class="pill-dot"></span>
+          <span>A BulbFlux é uma consultoria de marketing digital operada a partir de Portugal.</span>
+        </div>
+
+        <h2>1. Responsável pelo Tratamento</h2>
+        <p>O responsável pelo tratamento dos dados neste website é:</p>
+        <p>
+          <strong>BulbFlux – Digital Marketing Consulting</strong><br />
+          E-mail: <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>
+        </p>
+
+        <h2>2. Dados que Recolhemos</h2>
+        <p>Recolhemos apenas os dados necessários para comunicar consigo e prestar os nossos serviços. Isto pode incluir:</p>
+        <ul>
+          <li><strong>Dados de identificação:</strong> nome e nome da empresa.</li>
+          <li><strong>Dados de contacto:</strong> e-mail e, se fornecido, número de telefone.</li>
+          <li><strong>Informação de negócio:</strong> faixa de faturação mensal, principais desafios, objetivos e outras informações que decide partilhar em formulários ou chamadas.</li>
+          <li><strong>Dados de utilização:</strong> páginas visitadas, tempo de navegação, cliques e interações, recolhidos através de cookies ou ferramentas de analytics.</li>
+          <li><strong>Dados técnicos:</strong> endereço IP, tipo de browser, tipo de dispositivo e registos básicos para segurança e performance.</li>
+        </ul>
+
+        <h2>3. Como Utilizamos os Seus Dados</h2>
+        <p>Utilizamos os seus dados pessoais para:</p>
+        <ul>
+          <li>Responder a pedidos de contacto e agendar strategy calls.</li>
+          <li>Analisar o seu negócio e preparar estratégias de marketing digital adaptadas.</li>
+          <li>Enviar comunicações essenciais de serviço (ex.: confirmações, follow-ups).</li>
+          <li>Melhorar o website, funnels e performance das campanhas.</li>
+          <li>Cumprir obrigações legais e responder a pedidos legítimos de autoridades.</li>
+        </ul>
+
+        <h2>4. Fundamento Jurídico (RGPD)</h2>
+        <p>Ao abrigo do RGPD, tratamos os seus dados pessoais com base em:</p>
+        <ul>
+          <li><strong>Consentimento:</strong> quando preenche um formulário, subscreve ou aceita receber comunicações.</li>
+          <li><strong>Execução de contrato:</strong> quando o tratamento é necessário para analisar o seu projeto, preparar uma proposta ou prestar serviços.</li>
+          <li><strong>Interesse legítimo:</strong> para segurança, prevenção de fraude, melhoria de serviços e analytics básicos.</li>
+          <li><strong>Obrigação legal:</strong> quando temos de conservar determinados dados para efeitos fiscais, contabilísticos ou regulatórios.</li>
+        </ul>
+
+        <h2>5. Cookies e Tecnologias Semelhantes</h2>
+        <p>
+          O nosso website pode utilizar cookies e tecnologias semelhantes para garantir funcionalidades básicas
+          e compreender melhor como os visitantes utilizam o site. Quando exigido por lei, pediremos o seu consentimento
+          antes de utilizar cookies não essenciais.
+        </p>
+
+        <h2>6. Ferramentas de Analytics e Publicidade</h2>
+        <p>
+          Poderemos utilizar plataformas de analytics ou publicidade (por exemplo, Google Analytics ou Google Ads) para medir performance e otimizar campanhas.
+          Estas ferramentas podem recolher dados agregados como páginas visitadas, conversões, tipo de dispositivo e localização aproximada.
+        </p>
+        <p>
+          Qualquer utilização destas ferramentas será configurada em conformidade com o RGPD, minimizando dados pessoais e, quando necessário, pedindo o seu consentimento.
+        </p>
+
+        <h2>7. Comunicações de Marketing</h2>
+        <p>
+          Se nos der permissão, poderemos contactá-lo com conteúdo relevante sobre marketing digital, estratégia e crescimento — sempre com a opção de cancelar.
+        </p>
+        <p>
+          Pode retirar o consentimento a qualquer momento, respondendo aos nossos e-mails ou contactando-nos em
+          <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>.
+        </p>
+
+        <h2>8. Prazo de Conservação</h2>
+        <p>
+          Conservamos os seus dados pessoais apenas durante o tempo necessário para as finalidades descritas nesta Política
+          ou pelo período exigido por lei. Em geral:
+        </p>
+        <ul>
+          <li>Dados de contacto e leads: até 24 meses após a última interação, salvo se se tornar cliente ou pedir a eliminação antes.</li>
+          <li>Dados de clientes e contratos: durante a relação contratual e pelo período legalmente exigido para efeitos fiscais e contabilísticos.</li>
+        </ul>
+
+        <h2>9. Partilha de Dados</h2>
+        <p>
+          Não vendemos os seus dados pessoais. Podemos apenas partilhá-los com:
+        </p>
+        <ul>
+          <li>Fornecedores de serviços que nos ajudam a operar o negócio (ex.: alojamento, e-mail, analytics), ao abrigo de acordos de tratamento de dados.</li>
+          <li>Autoridades ou entidades reguladoras, quando tal for legalmente exigido.</li>
+        </ul>
+
+        <h2>10. Transferências Internacionais</h2>
+        <p>
+          Alguns fornecedores poderão estar situados fora do Espaço Económico Europeu.
+          Nesses casos, garantiremos que existem salvaguardas adequadas (por exemplo, Cláusulas Contratuais-Tipo ou medidas equivalentes).
+        </p>
+
+        <h2>11. Os Seus Direitos</h2>
+        <p>Enquanto titular dos dados, tem direito a:</p>
+        <ul>
+          <li>Aceder aos seus dados pessoais.</li>
+          <li>Retificar dados incorretos ou incompletos.</li>
+          <li>Solicitar o apagamento dos seus dados, em determinadas condições.</li>
+          <li>Restringir o tratamento, em determinadas condições.</li>
+          <li>Portabilidade dos dados, quando aplicável.</li>
+          <li>Opor-se ao tratamento baseado em interesses legítimos ou para efeitos de marketing direto.</li>
+          <li>Retirar o consentimento, quando o tratamento se basear no consentimento.</li>
+        </ul>
+
+        <h2>12. Como Exercê-los</h2>
+        <p>
+          Para exercer qualquer um destes direitos ou esclarecer dúvidas sobre esta Política, contacte-nos através de:
+        </p>
+        <p>
+          <strong>E-mail:</strong> <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>
+        </p>
+        <p>
+          Tem ainda o direito de apresentar reclamação junto da autoridade de controlo competente, em particular a Comissão Nacional de Proteção de Dados (CNPD) em Portugal ou a autoridade do seu país de residência.
+        </p>
+
+        <h2>13. Segurança</h2>
+        <p>
+          Implementamos medidas técnicas e organizativas razoáveis para proteger os seus dados pessoais contra acesso, alteração, divulgação ou destruição não autorizados.
+          No entanto, nenhum método de transmissão ou armazenamento é totalmente seguro, pelo que não podemos garantir segurança absoluta.
+        </p>
+
+        <h2>14. Alterações a esta Política</h2>
+        <p>
+          Podemos atualizar esta Política de Privacidade sempre que necessário para refletir alterações legais, tecnológicas ou dos nossos serviços.
+          A indicação “Última atualização” mostrará sempre a versão em vigor.
+        </p>
+
+        <h2>15. Contacto</h2>
+        <p>
+          Para questões relacionadas com esta Política de Privacidade ou com o tratamento dos seus dados, contacte-nos em
+          <a href="mailto:bulbflux@gmail.com">bulbflux@gmail.com</a>.
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      const en = document.getElementById("content-en");
+      const pt = document.getElementById("content-pt");
+      const buttons = document.querySelectorAll("#langToggle button");
+
+      function setLang(lang) {
+        if (lang === "pt") {
+          en.style.display = "none";
+          pt.style.display = "block";
+        } else {
+          en.style.display = "block";
+          pt.style.display = "none";
+        }
+        buttons.forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.lang === lang);
+        });
+      }
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => setLang(btn.dataset.lang));
+      });
+
+      // Default: EN
+      setLang("en");
+    })();
+  </script>
+</body>
+</html>

@@ -1,26 +1,32 @@
 import { CheckCircle } from 'lucide-react';
 import FadeInWhenVisible from './FadeInWhenVisible';
-
-const outcomes = [
-  'Crescimento de receita suportado por sistemas testados, não por adivinhação',
-  'Leads de maior qualidade e taxas de conversão mais fortes',
-  'Funnels e infraestrutura digital otimizados',
-  'Estratégias escaláveis para negócios online e locais',
-  'Clareza sobre quais campanhas, ofertas e canais geram lucro real',
-  'Frameworks de crescimento previsíveis e repetíveis',
-];
+import { useLanguage } from '../context/LanguageContext';
 
 export default function Results() {
+  const { t } = useLanguage();
+
+  const outcomes = [
+    t("results.r1"),
+    t("results.r2"),
+    t("results.r3"),
+    t("results.r4"),
+    t("results.r5"),
+    t("results.r6"),
+  ];
+
   return (
-    <section className="py-16 sm:py-24 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    <section
+      id="results"
+      className="py-16 sm:py-24 bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* SECTION TITLE */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            O que a{' '}
+            {t("results.title")}{" "}
             <span className="bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">
-              BulbFlux Entrega
+              {t("results.highlight")}
             </span>
           </h2>
         </div>
@@ -37,7 +43,7 @@ export default function Results() {
 
                 {outcomes.map((outcome, index) => (
                   <div key={index} className="flex items-start gap-3 sm:gap-4 group">
-                    
+
                     {/* ICON BUBBLE */}
                     <div className="flex-shrink-0 mt-0.5">
                       <div className="w-6 sm:w-8 h-6 sm:h-8 

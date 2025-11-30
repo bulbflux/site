@@ -1,46 +1,73 @@
 import { Workflow, Lightbulb, Target, BarChart3, Settings, Zap } from 'lucide-react';
 import FadeInWhenVisible from './FadeInWhenVisible';
-
-const services = [
-  {
-    icon: Workflow,
-    title: 'Conversion Funnels',
-    description: 'Criação de funnels completos que transformam cliques em clientes.',
-    bullets: ['Landing pages', 'Estrutura da oferta', 'Funnel strategy'],
-  },
-  {
-    icon: Lightbulb,
-    title: 'Digital Strategy',
-    description: 'Planos claros e acionáveis para otimizar performance e escalar resultados.',
-    bullets: ['Positioning', 'Seleção de canais', 'Growth prioritization'],
-  },
-  {
-    icon: Target,
-    title: 'Lead Generation Systems',
-    description: 'Geração de leads através de processos escaláveis e automatizados.',
-    bullets: ['Automation', 'Lead magnets', 'High-intent capture'],
-  },
-  {
-    icon: BarChart3,
-    title: 'Marketing Optimization',
-    description: 'Melhoria contínua de campanhas, eliminação de bottlenecks e aumento de conversões.',
-    bullets: ['A/B testing', 'CRO', 'Auditorias de performance'],
-  },
-  {
-    icon: Settings,
-    title: 'Consulting & Implementation',
-    description: 'Acompanhamento estratégico ou execução completa em vários canais.',
-    bullets: ['Hands-on support', 'Implementação', 'Strategic advisory'],
-  },
-  {
-    icon: Zap,
-    title: 'Growth Tracking & Analytics',
-    description: 'Monitorização e otimização através de métricas e insights data-driven.',
-    bullets: ['Dashboards', 'KPIs', 'Revenue tracking'],
-  },
-];
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Services() {
+  const { t } = useLanguage();
+
+  const services = [
+    {
+      icon: Workflow,
+      title: t("services.s1_title"),
+      description: t("services.s1_desc"),
+      bullets: [
+        t("services.s1_b1"),
+        t("services.s1_b2"),
+        t("services.s1_b3"),
+      ],
+    },
+    {
+      icon: Lightbulb,
+      title: t("services.s2_title"),
+      description: t("services.s2_desc"),
+      bullets: [
+        t("services.s2_b1"),
+        t("services.s2_b2"),
+        t("services.s2_b3"),
+      ],
+    },
+    {
+      icon: Target,
+      title: t("services.s3_title"),
+      description: t("services.s3_desc"),
+      bullets: [
+        t("services.s3_b1"),
+        t("services.s3_b2"),
+        t("services.s3_b3"),
+      ],
+    },
+    {
+      icon: BarChart3,
+      title: t("services.s4_title"),
+      description: t("services.s4_desc"),
+      bullets: [
+        t("services.s4_b1"),
+        t("services.s4_b2"),
+        t("services.s4_b3"),
+      ],
+    },
+    {
+      icon: Settings,
+      title: t("services.s5_title"),
+      description: t("services.s5_desc"),
+      bullets: [
+        t("services.s5_b1"),
+        t("services.s5_b2"),
+        t("services.s5_b3"),
+      ],
+    },
+    {
+      icon: Zap,
+      title: t("services.s6_title"),
+      description: t("services.s6_desc"),
+      bullets: [
+        t("services.s6_b1"),
+        t("services.s6_b2"),
+        t("services.s6_b3"),
+      ],
+    },
+  ];
+
   return (
     <section
       id="services"
@@ -61,30 +88,31 @@ export default function Services() {
         {/* TITLE */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Serviços Pensados para{' '}
+            {t("services.title")}{" "}
             <span className="bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">
-              Aumentar a Sua Receita
+              {t("services.highlight")}
             </span>
           </h2>
         </div>
 
-        {/* SERVICES GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        {/* GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 items-stretch">
           {services.map((service, index) => (
             <FadeInWhenVisible key={index} delay={index * 0.08}>
               <div
                 className="group p-6 sm:p-8 bg-white dark:bg-gray-800 
                            border border-gray-100 dark:border-gray-700 
                            rounded-2xl hover:border-transparent 
-                           hover:shadow-2xl transition-all duration-300 relative"
+                           hover:shadow-2xl transition-all duration-300 relative
+                           h-full flex flex-col"
               >
 
-                {/* TOP RIGHT BACKLIGHT BULB */}
+                {/* TOP RIGHT BULB */}
                 <div className="absolute top-4 right-4 w-12 sm:w-16 h-12 sm:h-16 dark:opacity-5 opacity-3">
                   <Lightbulb className="w-full h-full text-blue-500" />
                 </div>
 
-                {/* ICON CIRCLE */}
+                {/* ICON */}
                 <div
                   className="w-12 sm:w-16 h-12 sm:h-16 
                              bg-gradient-to-br from-blue-600 to-green-500 
@@ -101,21 +129,15 @@ export default function Services() {
                 </h3>
 
                 {/* DESCRIPTION */}
-                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed mb-3 sm:mb-4">
+                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed mb-3 sm:mb-4 flex-grow">
                   {service.description}
                 </p>
 
                 {/* BULLETS */}
                 <ul className="space-y-2">
                   {service.bullets.map((bullet, idx) => (
-                    <li
-                      key={idx}
-                      className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex items-center gap-2"
-                    >
-                      <span
-                        className="w-1.5 h-1.5 rounded-full bg-gradient-to-r 
-                                   from-blue-600 to-green-500 flex-shrink-0"
-                      />
+                    <li key={idx} className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-600 to-green-500 flex-shrink-0" />
                       {bullet}
                     </li>
                   ))}
